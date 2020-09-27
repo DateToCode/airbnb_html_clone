@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airbnb clone</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-</head>
-<body>
-    
-    <section class="header__container">
-        <h4>HEADER SECTION</h4>
-      
-    </section>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <nav class="navbar__container">
-        <div class="navbar__mobile">
-            <div class="navbar__mobile__item navbar__item__selected">
-                <i class="fab fa-airbnb"></i>
-                <p>Explora</p>
-            </div>
-            <div class="navbar__mobile__item">
-                <i class="far fa-heart"></i>
-                <p>Guardados</p>
-            </div>
-            <div class="navbar__mobile__item">
-                <i class="far fa-user"></i>
-                <p>Iniciar sesión</p>
-            </div>
+      <div class="navbar__mobile">
+        <div class="navbar__mobile__item navbar__item__selected">
+          <i class="fab fa-airbnb"></i>
+          <p>Explora</p>
         </div>
+        <div class="navbar__mobile__item">
+          <i class="far fa-heart"></i>
+          <p>Guardados</p>
+        </div>
+        <div class="navbar__mobile__item">
+          <i class="far fa-user"></i>
+          <p>Iniciar sesión</p>
+        </div>
+      </div>
     </nav>
-</body>
+    <section class="header__container">
+      <div class="header__input">
+        <i class="fas fa-search"></i>
+        <input type="text" />
+      </div>
+      <div class="header__content">
+        <h1>Viajar cerca está de moda</h1>
+        <p>
+          Cambia de escenario. Descubre alojamientos cercanos donde vivir,
+          trabajar o simplemente relajarte
+        </p>
+        <button>Explora los alrededores</button>
+      </div>
+    </section>
+    <section class="placesGallery__container">
+      <div class="placeCard">
+        <img
+          src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
+        />
+        <div class="placeCard__content">
+          <h4>Espacios únicos</h4>
+          <p>Alojamientos que invitan a soñar.</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
